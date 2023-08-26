@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import ProductDetails from "./pages/ProductDetails";
 import ShoppingCart from "./pages/ShoppingCart";
 import Checkout from "./pages/Checkout";
+
 const App = () => (
   <>
   <Header/>
