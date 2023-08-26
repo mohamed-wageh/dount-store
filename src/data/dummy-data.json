@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Chocolate Donut",
+    "price": 2.99,
+    "description": "Delicious chocolate-flavored donut."
+  },
+  {
+    "id": 2,
+    "name": "Strawberry Donut",
+    "price": 3.49,
+    "description": "Fresh strawberry-filled donut."
+  }
+]
