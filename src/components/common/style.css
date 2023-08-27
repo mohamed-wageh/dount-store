@@ -6,3 +6,20 @@
   height: 100%;
   object-fit: cover;
 }
+.footer{
+  background-color:#e1b7be;
+  width: 90%;
+}
+.btn-container{
+  max-width: 100%;
+}
+.out{
+  outline:none;
+}
+.btn-color{
+background-color: #7c4859;
+color:white;
+}
+.pointer{
+  cursor: pointer;
+}
