@@ -65,7 +65,7 @@ const Header = () => {
               <a
                 className="nav-link"
                 href="https://github.com/mohamed-wageh"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 FaceBook
               </a>
