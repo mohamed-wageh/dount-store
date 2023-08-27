@@ -3,7 +3,7 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <div className="footer p-2 position-absolute top-100 start-50 translate-middle">
+    <div className="footer p-2 w-100 position-absolute top-100 start-50 translate-middle">
       <div className=" d-flex  justify-content-around">
         <div className=" d-flex flex-column gap-2">
           <div className="mb-3 fw-bold">SHOP</div>
