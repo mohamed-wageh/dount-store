@@ -4,7 +4,7 @@ import React from "react";
 const Slider = () => {
   return (
  
-      <div className="container-fluid d-flex justify-content-center">
+      <div className="row d-flex justify-content-center mt-3">
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
@@ -32,24 +32,24 @@ const Slider = () => {
               aria-label="Slide 3"
             ></button>
           </div>
-          <div class="carousel-inner ">
+          <div class="carousel-inner col">
             <div class="carousel-item active">
               <img
-                src="https://img.freepik.com/free-photo/donuts-with-white-chocolate-cream-sprinkles-sugar_74190-7218.jpg?size=626&ext=jpg&uid=R114292659&ga=GA1.2.1638503974.1693153564&semt=ais"
-                class="d-block  "
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item ">
-              <img
-                src="https://img.freepik.com/free-photo/colorful-sweeties-donuts-pattern-composition_171337-20060.jpg?size=626&ext=jpg&uid=R114292659&ga=GA1.2.1638503974.1693153564&semt=ais"
+                src="https://i.pinimg.com/564x/6f/41/c2/6f41c2b21f1d937c85427b23c341dfc4.jpg"
                 class="d-block "
                 alt="..."
               />
             </div>
             <div class="carousel-item ">
               <img
-                src="https://img.freepik.com/free-photo/glazed-donuts-plain-background_23-2148332834.jpg?size=626&ext=jpg&uid=R114292659&ga=GA1.2.1638503974.1693153564&semt=ais"
+                src="https://i.pinimg.com/564x/32/78/5f/32785fdf12780ffe9fdc599ddfa73c39.jpg"
+                class="d-block"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item ">
+              <img
+                src="https://i.pinimg.com/564x/95/cb/12/95cb121aad2355a7e18c87a2e161c384.jpg"
                 class="d-block "
                 alt="..."
               />
