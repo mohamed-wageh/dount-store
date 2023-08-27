@@ -95,6 +95,8 @@ const Slider = () => {
             src="https://i.pinimg.com/400x/6f/41/c2/6f41c2b21f1d937c85427b23c341dfc4.jpg"
             className="d-block "
             alt="Slide 1"
+            width={800}
+            height={400}
           />
         </div>
         <div className="carousel-item">
@@ -102,6 +104,8 @@ const Slider = () => {
             src="https://i.pinimg.com/400x/32/78/5f/32785fdf12780ffe9fdc599ddfa73c39.jpg"
             className="d-block"
             alt="Slide 2"
+            width={800}
+            height={400}
           />
         </div>
         <div className="carousel-item">
@@ -109,6 +113,8 @@ const Slider = () => {
             src="https://i.pinimg.com/400x/95/cb/12/95cb121aad2355a7e18c87a2e161c384.jpg"
             className="d-block"
             alt="Slide 3"
+            width={800}
+            height={400}
           />
         </div>
       </div>
