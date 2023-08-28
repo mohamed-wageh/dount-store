@@ -8,11 +8,8 @@
 }
 .footer{
   background-color:#e1b7be;
-  width: 90%;
 }
-.btn-container{
-  max-width: 100%;
-}
+
 .out{
   outline:none;
 }
