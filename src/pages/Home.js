@@ -28,7 +28,7 @@ const Home = () => {
         {arr.slice(0, 3).map((dount) => {
           return (
             <div className="card col-lg-3 col-md-4 col-sm-10 " key={dount.id}>
-              <DonutCard dount={dount} />
+              <DonutCard dount={dount} navigate={navigate} />
             </div>
           );
         })}
