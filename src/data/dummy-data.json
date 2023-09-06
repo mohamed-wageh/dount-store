@@ -3,12 +3,69 @@
     "id": 1,
     "name": "Chocolate Donut",
     "price": 2.99,
-    "description": "Delicious chocolate-flavored donut."
+    "description": "Delicious chocolate-flavored donut.",
+    "img": "https://i.pinimg.com/236x/03/b2/f9/03b2f9e8ee3072296ea5371db60de247.jpg"
   },
   {
     "id": 2,
     "name": "Strawberry Donut",
     "price": 3.49,
-    "description": "Fresh strawberry-filled donut."
+    "description": "Fresh strawberry-filled donut.",
+    "img": "https://i.pinimg.com/236x/2d/36/a5/2d36a51ea49772b75551f5d7a71b40fc.jpg"
+  },
+  {
+    "id": 3,
+    "name": " Blueberry Donut",
+    "price": 3.29,
+    "description": "Fresh Blueberry-filled donut.",
+    "img": "https://i.pinimg.com/236x/bd/fa/1d/bdfa1d8d68a26394487e5c9c50b55743.jpg"
+
+  },
+  {
+    "id": 4,
+    "name": " Pistachio Donut",
+    "price": 4.49,
+    "description": "Fresh Pistachio-filled donut.",
+    "img": "https://i.pinimg.com/236x/91/74/b9/9174b9dda6755d0a75dbe3c33f1b5688.jpg"
+  },
+  {
+    "id": 5,
+    "name": "White Chocolate Donut",
+    "price": 3.20,
+    "description": "Fresh White Chocolate-filled donut.",
+    "img": "https://i.pinimg.com/236x/6e/8e/8c/6e8e8ca15170a3640ead275aaf152d64.jpg"
+
+  },
+  {
+    "id": 6,
+    "name": "Oreo Donut",
+    "price": 3.20,
+    "description": "Fresh Oreo-filled donut.",
+    "img": "https://i.pinimg.com/236x/aa/78/7b/aa787b684c23aabe9b5fab6778b64ddd.jpg"
+
+  },
+  {
+    "id": 7,
+    "name": "Pink Donut",
+    "price": 3.20,
+    "description": "Fresh pink-filled donut.",
+    "img": "https://i.pinimg.com/236x/0a/e8/66/0ae866d687601e21e125e66792794462.jpg"
+
+  },
+  {
+    "id": 8,
+    "name": "Brown sugar Donut",
+    "price": 3.20,
+    "description": "Fresh Brown sugar -filled donut.",
+    "img": "https://i.pinimg.com/236x/f4/87/16/f4871600c4aadab5ffe13fda42227f04.jpg"
+
+  },
+  {
+    "id": 9,
+    "name": "Lemon Donut",
+    "price": 3.20,
+    "description": "Fresh Lemon -filled donut.",
+    "img": "https://i.pinimg.com/236x/92/6e/b4/926eb477962b91429bd1d8014812a1f9.jpg"
+
   }
 ]

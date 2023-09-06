@@ -8,6 +8,7 @@
 }
 .footer{
   background-color:#e1b7be;
+  
 }
 
 .out{
@@ -19,4 +20,8 @@ color:white;
 }
 .pointer{
   cursor: pointer;
+}
+.card-btn{
+  width: 15%;
+ height: 50%;
 }
