@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import DonutCard from "./DonutCard";
 import arr from "../data/dummy-data.json";
 import "../components/common/style.css";
@@ -34,7 +34,7 @@ const Menu = () => {
           <a
             className="navbar-brand  fs-4 py-1 px-3 mb-2"
             style={{ fontFamily: "Satisfy, sans-serif" , color:'#7c4859' , border:'1px solid #7c4859'}}
-            href="#"
+            href="/"
           >
             Menu
           </a>
