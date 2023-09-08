@@ -4,21 +4,25 @@
     "name": "Chocolate Donut",
     "price": 2.99,
     "description": "Delicious chocolate-flavored donut.",
-    "img": "https://i.pinimg.com/236x/03/b2/f9/03b2f9e8ee3072296ea5371db60de247.jpg"
+    "img": "https://i.pinimg.com/236x/03/b2/f9/03b2f9e8ee3072296ea5371db60de247.jpg",
+    "rate":3
   },
   {
     "id": 2,
     "name": "Strawberry Donut",
     "price": 3.49,
     "description": "Fresh strawberry-filled donut.",
-    "img": "https://i.pinimg.com/236x/2d/36/a5/2d36a51ea49772b75551f5d7a71b40fc.jpg"
+    "img": "https://i.pinimg.com/236x/2d/36/a5/2d36a51ea49772b75551f5d7a71b40fc.jpg",
+    "rate":6
   },
   {
     "id": 3,
     "name": " Blueberry Donut",
     "price": 3.29,
     "description": "Fresh Blueberry-filled donut.",
-    "img": "https://i.pinimg.com/236x/bd/fa/1d/bdfa1d8d68a26394487e5c9c50b55743.jpg"
+    "img": "https://i.pinimg.com/236x/bd/fa/1d/bdfa1d8d68a26394487e5c9c50b55743.jpg",
+    "rate":5
+
 
   },
   {
@@ -26,14 +30,17 @@
     "name": " Pistachio Donut",
     "price": 4.49,
     "description": "Fresh Pistachio-filled donut.",
-    "img": "https://i.pinimg.com/236x/91/74/b9/9174b9dda6755d0a75dbe3c33f1b5688.jpg"
+    "img": "https://i.pinimg.com/236x/07/b5/a2/07b5a2361f1ccdc53c11187d14353923.jpg",
+    "rate":10
+
   },
   {
     "id": 5,
     "name": "White Chocolate Donut",
     "price": 3.20,
     "description": "Fresh White Chocolate-filled donut.",
-    "img": "https://i.pinimg.com/236x/6e/8e/8c/6e8e8ca15170a3640ead275aaf152d64.jpg"
+    "img": "https://i.pinimg.com/236x/6e/8e/8c/6e8e8ca15170a3640ead275aaf152d64.jpg",
+    "rate":3
 
   },
   {
@@ -41,7 +48,9 @@
     "name": "Oreo Donut",
     "price": 3.20,
     "description": "Fresh Oreo-filled donut.",
-    "img": "https://i.pinimg.com/236x/aa/78/7b/aa787b684c23aabe9b5fab6778b64ddd.jpg"
+    "img": "https://i.pinimg.com/236x/43/9e/8b/439e8bafe9a23dab3662ce0941ac43c4.jpg",
+    "rate":8
+
 
   },
   {
@@ -49,7 +58,9 @@
     "name": "Pink Donut",
     "price": 3.20,
     "description": "Fresh pink-filled donut.",
-    "img": "https://i.pinimg.com/236x/0a/e8/66/0ae866d687601e21e125e66792794462.jpg"
+    "img": "https://i.pinimg.com/236x/0a/e8/66/0ae866d687601e21e125e66792794462.jpg",
+    "rate":5
+
 
   },
   {
@@ -57,7 +68,9 @@
     "name": "Brown sugar Donut",
     "price": 3.20,
     "description": "Fresh Brown sugar -filled donut.",
-    "img": "https://i.pinimg.com/236x/f4/87/16/f4871600c4aadab5ffe13fda42227f04.jpg"
+    "img": "https://i.pinimg.com/236x/f4/87/16/f4871600c4aadab5ffe13fda42227f04.jpg",
+    "rate":3
+
 
   },
   {
@@ -65,7 +78,19 @@
     "name": "Lemon Donut",
     "price": 3.20,
     "description": "Fresh Lemon -filled donut.",
-    "img": "https://i.pinimg.com/236x/92/6e/b4/926eb477962b91429bd1d8014812a1f9.jpg"
+    "img": "https://i.pinimg.com/236x/3b/8d/cd/3b8dcd6a6efa815b0999f78653d7060b.jpg",
+    "rate":7
+
+
+  },
+  {
+    "id": 10,
+    "name": "Red Donut",
+    "price": 3.20,
+    "description": "Fresh Red -filled donut.",
+    "img": "https://i.pinimg.com/236x/21/e3/1f/21e31fd92a4fcf6ad5b8add9c7bb06e2.jpg",
+    "rate":6
+
 
   }
 ]

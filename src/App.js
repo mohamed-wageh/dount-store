@@ -8,9 +8,11 @@ import ProductDetails from "./pages/ProductDetails";
 import ShoppingCart from "./pages/ShoppingCart";
 import Checkout from "./pages/Checkout";
 import Menu from "./pages/Menu";
+import './App.css'
+
 
 const App = () => (
-  <>
+  <div className="App position-relative m-0 p-0 ">
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
@@ -21,7 +23,7 @@ const App = () => (
       <Route path="/menu" element={<Menu />} />
     </Routes>
     <Footer />
-  </>
+  </div>
 );
 
 export default App;
