@@ -6,15 +6,15 @@ function Slider() {
     <div className="container  py-2 px-5">
       <div
         id="carouselExampleCaptions"
-        class="carousel slide "
+        className="carousel slide "
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -31,40 +31,40 @@ function Slider() {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active c-item">
+        <div className="carousel-inner">
+          <div className="carousel-item active c-item">
             <img
               src="https://i.pinimg.com/600x/6f/41/c2/6f41c2b21f1d937c85427b23c341dfc4.jpg"
-              class="d-block w-100 c-img"
+              className="d-block w-100 c-img"
               alt="..."
             />
-            <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+            <div className="carousel-caption top-0 mt-4 d-none d-md-block">
               <h1 className=' fw-bolder text-capitalize'> First slide label</h1>
               <p className="mt-3 fs-4 text-uppercase">
                 Some representative placeholder content for the first slide.
               </p>
             </div>
           </div>
-          <div class="carousel-item c-item">
+          <div className="carousel-item c-item">
             <img
               src="https://i.pinimg.com/600x/32/78/5f/32785fdf12780ffe9fdc599ddfa73c39.jpg"
-              class="d-block w-100 c-img"
+              className="d-block w-100 c-img"
               alt="..."
             />
-            <div class="carousel-caption  top-0 mt-4 d-none d-md-block">
+            <div className="carousel-caption  top-0 mt-4 d-none d-md-block">
               <h1 className=' fw-bolder text-capitalize'>Second slide label</h1>
               <p className="mt-3 fs-4 text-uppercase">
                 Some representative placeholder content for the second slide.
               </p>
             </div>
           </div>
-          <div class="carousel-item c-item">
+          <div className="carousel-item c-item">
             <img
               src="https://i.pinimg.com/564x/c3/19/12/c3191248c34aa65a674713ecd7675663.jpg"
-              class="d-block w-100 c-img"
+              className="d-block w-100 c-img"
               alt="..."
             />
-            <div class="carousel-caption  top-0 mt-4 d-none d-md-block">
+            <div className="carousel-caption  top-0 mt-4 d-none d-md-block">
               <h1 className=' fw-bolder text-capitalize'>Third slide label</h1>
               <p className="mt-3 fs-4 text-uppercase">
                 Some representative placeholder content for the third slide.
@@ -150,15 +150,15 @@ const Slider = () => {
       <div className="row  mt-3 text-center">
         <div
           id="carouselExampleIndicators"
-          class="carousel slide m-auto"
+          className="carousel slide m-auto"
           data-bs-ride="carousel"
         >
-          <div class="carousel-indicators">
+          <div className="carousel-indicators">
             <button
               type="button"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="0"
-              class="active"
+              className="active"
               aria-current="true"
               aria-label="Slide 1"
             ></button>
@@ -175,25 +175,25 @@ const Slider = () => {
               aria-label="Slide 3"
             ></button>
           </div>
-          <div class="carousel-inner col-lg-10 ">
-            <div class="carousel-item active">
+          <div className="carousel-inner col-lg-10 ">
+            <div className="carousel-item active">
               <img
                 src="https://i.pinimg.com/564x/6f/41/c2/6f41c2b21f1d937c85427b23c341dfc4.jpg"
-                class="d-block "
+                className="d-block "
                 alt="..."
               />
             </div>
-            <div class="carousel-item ">
+            <div className="carousel-item ">
               <img
                 src="https://i.pinimg.com/564x/32/78/5f/32785fdf12780ffe9fdc599ddfa73c39.jpg"
-                class="d-block"
+                className="d-block"
                 alt="..."
               />
             </div>
-            <div class="carousel-item ">
+            <div className="carousel-item ">
               <img
                 src="https://i.pinimg.com/564x/95/cb/12/95cb121aad2355a7e18c87a2e161c384.jpg"
-                class="d-block "
+                className="d-block "
                 alt="..."
               />
             </div>

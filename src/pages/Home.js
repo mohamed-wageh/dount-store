@@ -12,7 +12,7 @@ const Home = () => {
   let dounts = [...arr];
 
   return (
-    <>
+    <div className="home-container">
       <Slider />
       <div className="bestSeller container m-auto mt-5 py-3 mb-5">
         <div className="title text-center mb-1">
@@ -49,7 +49,7 @@ const Home = () => {
             })}
         </div>
       </div>
-      <div className="menuBar border-top border-dark  position-relative container m-auto mt-5 mb-5 ">
+      <div className="menuBar border-top border-dark position-relative container m-auto mt-5 mb-5">
         <button
           onClick={handleClick}
           className="btn rounded-1 position-absolute top-0 start-50 translate-middle bg-white fs-4 border-dark rounded-1"
@@ -70,7 +70,7 @@ const Home = () => {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
