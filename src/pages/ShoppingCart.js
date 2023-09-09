@@ -9,9 +9,10 @@ const ShoppingCart = () => {
   const handleNavigate = () => {
     navigate("/checkout");
   };
-const handleRemoveFromCart = (productId) => {
-  removeFromCart(productId);
-};
+  const handleRemoveFromCart = (productId) => {
+    removeFromCart(productId);
+  };
+
   return (
     <div className="container mt-5">
       <h1 className="mb-4">Shopping Cart</h1>
@@ -21,13 +22,13 @@ const handleRemoveFromCart = (productId) => {
             {cart.map((cartItem) => (
               <li
                 key={cartItem.product.id}
-                className="list-group-item d-flex justify-content-between align-items-center cart-item"
+                className="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-center cart-item"
               >
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center mb-2 mb-md-0">
                   <img
                     src={cartItem.product.img}
                     alt={cartItem.product.name}
-                    className="cart-item-image"
+                    className="cart-item-image img-fluid"
                   />
                   <div>
                     <h3 className="cart-item-title">{cartItem.product.name}</h3>
