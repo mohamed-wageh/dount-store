@@ -11,7 +11,6 @@ const Home = () => {
   }
   let dounts = [...arr];
 
-  console.log(dounts);
   return (
     <>
       <Slider />

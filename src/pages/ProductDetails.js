@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import '../components/common/style.css'
+import { useCart } from "../context/CartProvider";
 const ProductDetails = () => {
   const location = useLocation();
   const { dount } = location.state || {};
   const navigate = useNavigate()
+ const { addToCart } = useCart();
 
   // State to track the quantity of products to add to the cart
   const [quantity, setQuantity] = useState(1);
@@ -24,9 +26,10 @@ const ProductDetails = () => {
     }
   };
 
-  if (!dount) {
-    return <div>Product not found.</div>;
-  }
+   const handleAddToCart = () => {
+     addToCart(dount, quantity); // Example: Adding 1 item to the cart
+   };
+
 
   return (
     <div className=" container mt-5 ">
@@ -44,8 +47,8 @@ const ProductDetails = () => {
           <p className="mb-4 lead">{dount.description}</p>
           <h2 className="text-danger">${dount.price.toFixed(2)}</h2>
           <div className="mb-4 d-flex gap-4">
-            <div >
-            <p >Quantity:</p>
+            <div>
+              <p>Quantity:</p>
             </div>
             <div className="input-group">
               <button
@@ -60,7 +63,7 @@ const ProductDetails = () => {
                 className=" text-center "
                 value={quantity}
                 readOnly
-                style={{width:'50px'}}
+                style={{ width: "50px" }}
               />
               <button
                 className="btn btn-outline-secondary"
@@ -72,27 +75,27 @@ const ProductDetails = () => {
             </div>
           </div>
           <div className="d-flex">
-          <div>
-            <button
-              className="btn btn-light"
-              style={{
-                color: "#7c4859",
-                border:"1px solid #7c4859"
-              }}
-              onClick={() =>
-                alert(`Added ${quantity} ${dount.name} to the cart.`)
-              }
-            >
-              Add to Cart
-            </button>
-          </div>
+            <div>
+              <button
+                className="btn btn-light"
+                style={{
+                  color: "#7c4859",
+                  border: "1px solid #7c4859",
+                }}
+                onClick={handleAddToCart}
+              >
+                Add to Cart
+              </button>
+            </div>
             <button
               className=" ms-2 border-0 out rounded pointer btn-color px-3 "
-            onClick={() =>/* alert(`Buy Now: ${quantity} ${dount.name}`)*/ handleNavigate()}
+              onClick={() =>
+                /* alert(`Buy Now: ${quantity} ${dount.name}`)*/ handleNavigate()
+              }
             >
               Buy Now
             </button>
-        </div>
+          </div>
         </div>
       </div>
       <hr className="my-5" />
