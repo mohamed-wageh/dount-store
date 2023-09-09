@@ -27,7 +27,7 @@ export const CartProvider = ({ children }) => {
       // Product is not in the cart, add it as a new item
       console.log("Adding to Cart:", product);
       setCart([...cart, { product, quantity }]);
-      // alert(`Added ${quantity} ${product.name} to the cart.`);
+      alert(`Added ${quantity} ${product.name} to the cart.`);
     }
   };
 
