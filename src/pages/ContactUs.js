@@ -4,7 +4,7 @@ import { faEnvelope, faPhone, faShop } from "@fortawesome/free-solid-svg-icons";
 
 function ContactUs() {
   return (
-    <div className="container my-3 p-3">
+    <div className="container my-3 px-4 py-2">
       <div className="row m-0 p-0 gap-3">
         <div className="col-lg-6 col-md-6">
           <h1>Contact Us</h1>
@@ -47,13 +47,13 @@ function ContactUs() {
             </div>
             <button
               type="button"
-              className=" border-0 out rounded pointer btn-color py-1 w-25"
+              className=" border-0 out rounded pointer btn-color py-2 w-50"
             >
               Send
             </button>
           </div>
         </div>
-        <div className=" col-lg-3 col-md-6 btn-color rounded-1 position-relative ">
+        <div className=" col-lg-3 col-md-6 btn-color rounded-1 position-relative  px-2">
           <div className="container p-4">
             <h3 className="mb-2">Info</h3>
             <div className=" d-flex gap-4 mb-2 p-1">
