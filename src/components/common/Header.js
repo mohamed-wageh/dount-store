@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary ">
       <div className="container">
         <a
           className="navbar-brand"
@@ -58,7 +58,7 @@ const Header = () => {
                 to="/contact"
                 onClick={() => handleLinkClick("/contact")}
               >
-                Contact
+                ContactUs
               </Link>
             </li>
             <li className="nav-item">

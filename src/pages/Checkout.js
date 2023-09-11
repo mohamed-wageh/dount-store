@@ -3,7 +3,7 @@ import "../components/common/style.css"
 
 const Checkout = () => {
   return (
-    <div className='p-3 bg-light'>
+    <div className='p-3 bg-light w-100 m-0'>
     <div className='container rounded bg-white mx-auto my-4 p-3'>
         <h2 className='text-center mb-4 mt-2'>Personal Information</h2>
     <form className="row g-3 needs-validation" novalidate>

@@ -29,8 +29,8 @@ const Menu = () => {
 
   return (
     <>
-      <nav className="navbar navbar-light bg-light">
-        <div className="container">
+      <nav className="navbar navbar-light bg-light w-100">
+        <div className="container px-5">
           <a
             className="navbar-brand  fs-4 py-1 px-3 mb-2"
             style={{ fontFamily: "Satisfy, sans-serif" , color:'#7c4859' , border:'1px solid #7c4859'}}
