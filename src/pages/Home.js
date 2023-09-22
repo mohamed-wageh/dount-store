@@ -1,15 +1,44 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "../components/common/Slider";
 import { useNavigate } from "react-router-dom";
 import arr from "../data/dummy-data.json";
 import DonutCard from "./DonutCard";
+import { db } from "../firebase";
+import { collection, getDocs } from "firebase/firestore";
 
 const Home = () => {
+  const [dounts, setDounts] = useState([]); // Initialize dounts as an empty array
+
   const navigate = useNavigate();
   function handleClick() {
     navigate("/menu");
   }
-  let dounts = [...arr];
+
+  const getData = async () => {
+    const querySnapshot = await getDocs(collection(db, "dounts")); // Use the correct collection name
+    const dountsData = [];
+    querySnapshot.forEach((doc) => {
+      console.log(doc);
+      // Assuming your Firestore documents have fields like 'name', 'description', 'rate', etc.
+      const data = doc.data();
+      dountsData.push({
+        id: doc.id,
+        name: data.name,
+        description: data.description,
+        rate: data.rate,
+        img: data.img,
+        price: data.price,
+        // Add other fields as needed
+      });
+    });
+    setDounts(dountsData); // Update the component state with the fetched data
+    console.log(dountsData);
+  };
+  // let dounts = [...arr];
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <div className="home-container">

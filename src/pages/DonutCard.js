@@ -3,7 +3,7 @@ import React from "react";
 const DonutCard = (props) => {
   const { dount, navigate } = props;
   function handlePlus(id) {
-     navigate(`/product/${id}`, { state: { dount } });
+    navigate(`/product/${id}`, { state: { dount } });
   }
   return (
     <>
